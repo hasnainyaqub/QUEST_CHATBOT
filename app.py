@@ -143,7 +143,12 @@ model_name = st.sidebar.selectbox(
     ]
 )
 
-api_key = st.secrets["GROQ_API_KEY"]
+api_key = st.secrets['GROQ_API_KEY']
+
+headers = {
+       "authorization": f"Bearer {api_key}",
+        "content-type": "application/json"
+}
 
 st.sidebar.markdown("### API Sources")
 st.sidebar.markdown(

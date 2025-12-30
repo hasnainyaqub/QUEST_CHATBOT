@@ -9,5 +9,3 @@ langchain-community
 langchain-groq
 langchain-huggingface
 langchain-openai
-os.environ["GROQ_API_KEY"] = "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"
-api_key = os.environ["GROQ_API_KEY"]
