@@ -149,13 +149,6 @@ http://localhost:8501
 
 ---
 
-## 👤 Author
-
-**Hasnain Yaqub**  
-AI / ML & Generative AI Practitioner
-
----
-
 ## ⭐ Acknowledgements
 
 - [FAISS](https://github.com/facebookresearch/faiss) for fast similarity search
